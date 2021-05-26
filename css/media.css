@@ -1,0 +1,218 @@
+@media screen and (max-width: 1024px) {
+    .nav__toggle{
+        display: inline-block;
+        position: fixed;
+        top: 75px;
+        left: 40px;
+        z-index: 1; 
+    }
+    .nav ul{
+        display: none;
+    }
+    #nav__toggle:checked ~ ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav>ul li{
+        margin-right: 0px;
+        margin-bottom: 15px;
+        
+    }
+    .nav ul{
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 140px 5px 0px 10px;
+        height: 100%;
+        background-color: #fff;
+        opacity: 0.5;
+    }
+
+    .conteiner__logo{
+        flex-wrap: wrap;
+    }
+    .item__line{
+        display: none;
+    }
+    .logo__item{
+        width: 50%;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .wrapper__footer{
+        flex-direction: column-reverse;
+    }
+    .footer__text{
+        padding-bottom: 25px;
+    }
+    .about__text{
+        width: 50%;
+        padding-top: 20px;
+    }
+
+}
+@media screen and (max-width: 1271px){
+    .wrapper__maine{
+        grid-template-columns: 378px 1fr; 
+    }
+    .wrapper__adv{
+        display: flex;
+        justify-content: space-between;
+    }
+    .adv__item{
+        width: 300px;
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width: 1213px){
+    .wrapper__maine{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .maine__text{
+        width: 80%;
+        justify-items: center;
+    }
+    h1{
+        text-align: center;
+    }
+    .maine__text>p{
+        width: 80%;
+        text-align: center;
+    }
+    .slider__indicator{
+        left: 300px 
+    }
+}
+@media screen and (max-width: 1156px){
+    .wrapper__adv{
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+    .adv__item{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 36px;
+    }
+    .adv__item img{
+        margin-bottom: 16px;
+    }
+    h2{
+        margin-bottom: 16px;
+    }
+    .adv__item p{
+        text-align: center;
+        margin-bottom: 16px; 
+    }
+}
+@media screen  and (max-width: 900px){
+    .adress__items{
+        padding: 20px;
+    }
+}
+@media screen  and (max-width: 900px){
+    .wrapper__about{
+        flex-direction: column;
+    }
+    .about__text{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .about__text h2,h3,p{
+        text-align: center;
+    }
+    .about__list{
+    text-align: center;
+    }
+    .about__adv{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about__nombers:not(:last-child){
+        margin-right: 20px;
+    }
+    .about__nombers{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about__logo{
+        padding-bottom: 20px;
+    }
+    .slider img{
+        width: 400px;
+    }
+    .slider__indicator{
+        top: 170px;
+        left: 124px
+    }
+}
+@media screen and (max-width: 700px){
+    h1{
+        font-size: 45px;
+        line-height: 45px;
+        font-weight: 500;
+    }
+    .adress__items{
+        padding: 5px;
+    }
+    .adress__items> p{
+        padding-bottom: 16px;
+    }
+    .adress__title{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 550px){
+    .conteiner__logo{
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    .conteiner__map{
+        padding-top: 40px;
+    }
+    .nomber{
+        font-size: 35px;
+        line-height: 10px;
+        font-weight: 700;
+    }
+}
+@media screen and (max-width: 455px){
+    .slider img{
+        width: 320px;
+    }
+    .wrapper__adv{
+        padding-top: 40px;
+    }
+    .wrapper__footer{
+        padding: 40px 0px;
+    }
+} 
+@media screen and (max-width: 455px){
+    .slider__indicator{
+        top: 150px;
+        left: 124px
+    }
+} 
+@media screen and (max-width: 360px){
+    .slider img{
+        width: 280px;
+    }
+    .slider__indicator{
+        top: 150px;
+        left: 100px
+    }
+    .about__logo img{
+        width: 280px;
+    }
+    .about__nombers:not(:last-child){
+        margin-right: 0px;
+    }
+    .wrapper__nombers{
+        justify-content: space-around;
+    }
+}   
